@@ -14,7 +14,7 @@ const App = () => {
           <Route path="/Main-market" index element={<Home />} />
           <Route path="/Main-market/product/:id" element={<Product />} />
           <Route path="*" element={<h2 className="title-2">404</h2>} />
-        <Route path="/Market/bag/" element={<Bag/>}/>
+        <Route path="/Main-market/bag/" element={<Bag/>}/>
         </Routes>
       </main>
     </Fragment>
